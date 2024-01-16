@@ -3,9 +3,9 @@ const url = require('url');
 const next = require('next');
 
 
-const dev = false
+const dev = process.env.NODE_ENV !== 'production'
 const hostname = '0.0.0.0'
-const port = 8080;
+const port = process.env.PORT || 8080;
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
 
