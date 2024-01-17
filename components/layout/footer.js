@@ -13,7 +13,7 @@ return(
         <div className="single-widget">
             <div className="footer-logo">
             <Link href="/">
-            <h1>EliteTech<span className="logoColor"> Experts</span> </h1>
+            <h1>Elite<span className="logoColor">T</span>eQ</h1>
             </Link>
                 <p>{FooterConstant.subTitle}</p>
                 <div className="footer-social wow animate flipInX" data-wow-delay="200ms" data-wow-duration="1500ms">

@@ -62,7 +62,7 @@ const Header = () => {
               <div className="col-xxl-4 col-xl-2 col-lg-2 col-sm-6 col-6">
                 <div className="logo text-left">
                   <Link href="/">
-                    <h1><span className="logoColor">EliteTech</span> Experts</h1>
+                    <h1>Elite<span className="logoColor">T</span>eQ</h1>
                   </Link>
                 </div>
               </div>
